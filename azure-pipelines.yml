@@ -44,11 +44,11 @@ steps:
     projects: '**/*.csproj'
 
 
-- template: templates/build.yml
+- template: templates/build.yaml
   parameters:
     buildConfiguration: 'Debug'
 
-- template: templates/build.yml
+- template: templates/build.yaml
   parameters:
     buildConfiguration: 'Release'
 
